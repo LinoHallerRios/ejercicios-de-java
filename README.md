@@ -8,8 +8,6 @@ Ejercicios de java para la asignatura Programación de 1ºDAM.
 
 ## Enlaces
 
-[Aprende java con ejercicios]
-(https://leanpub.com/aprendejava/)
+[Aprende java con ejercicios](https://leanpub.com/aprendejava/)
 
-[Git y GitHub - Guía de Supervivencia]
-(https://leanpub.com/gitygithub/)
+[Git y GitHub - Guía de Supervivencia](https://leanpub.com/gitygithub/)
