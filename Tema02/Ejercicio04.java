@@ -1,3 +1,11 @@
+/**
+* Variables
+* 
+* Conversor de euros a pesetas. La cantidad en euros que se quiere
+* convertir está almacenada en una variable.
+*
+* @author Lino Haller Ríos
+*/
 public class Ejercicio05 {
   public static void main(String[] args){
     

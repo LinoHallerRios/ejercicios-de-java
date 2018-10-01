@@ -1,3 +1,11 @@
+/**
+* Variables
+* 
+* Variables nombre, direccion y telefono y asígnales los valores 
+* correspondientes. Muestra los valores de esas variables por pantalla.
+*
+* @author Lino Haller Ríos
+*/
 public class Ejercicio03 {
   public static void main(String[] args){
     

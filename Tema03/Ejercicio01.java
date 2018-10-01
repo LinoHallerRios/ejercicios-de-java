@@ -1,3 +1,11 @@
+/**
+* Lectura de datos desde teclado
+*
+* Programa que pida dos números y que luego muestre el resultado
+* de su multiplicación.
+* 
+* @author Lino Haller Ríos
+*/
 public class Ejercicio01{
   public static void main(String[] args){
     

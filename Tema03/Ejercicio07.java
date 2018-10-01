@@ -1,3 +1,10 @@
+/**
+* Lectura de datos desde teclado
+*
+* Programa que calcule el total de una factura a partir de la base imponible.
+* 
+* @author Lino Haller Ríos
+*/
 public class Ejercicio07 {
   public static void main(String[] args){
     

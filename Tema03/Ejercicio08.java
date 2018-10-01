@@ -1,3 +1,11 @@
+/**
+* Lectura de datos desde teclado
+*
+* Programa que calcula el salario semanal de un empleado en base
+* a las horas trabajadas, a razón de 12 euros la hora.
+* 
+* @author Lino Haller Ríos
+*/
 public class Ejercicio08 {
   public static void main(String[] args){
     

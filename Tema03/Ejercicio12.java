@@ -1,3 +1,11 @@
+/**
+* Lectura de datos desde teclado
+*
+* Programa que calcule la nota que hace falta sacar en el segundo
+* examen de la asignatura Programación para obtener la media deseada.
+* 
+* @author Lino Haller Ríos
+*/
 public class Ejercicio12{
   public static void main(String[] args){
     

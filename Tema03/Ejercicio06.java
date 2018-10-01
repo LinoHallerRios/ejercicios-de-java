@@ -1,3 +1,10 @@
+/**
+* Lectura de datos desde teclado
+*
+* Programa que calcula el área de un triángulo.
+* 
+* @author Lino Haller Ríos
+*/
 public class Ejercicio06{
   public static void main(String[] args){
     

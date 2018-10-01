@@ -1,3 +1,11 @@
+/**
+* Lectura de datos desde teclado
+*
+* Programa que sume, reste, multiplique y divida dos números
+* introducidos por teclado.
+* 
+* @author Lino Haller Ríos
+*/
 public class Ejercicio04{
   public static void main(String[] args){
     

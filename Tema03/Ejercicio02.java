@@ -1,3 +1,10 @@
+/**
+* Lectura de datos desde teclado
+*
+* Conversor de euros a pesetas.
+* 
+* @author Lino Haller Ríos
+*/
 public class Ejercicio02{
   public static void main(String[] args){
     

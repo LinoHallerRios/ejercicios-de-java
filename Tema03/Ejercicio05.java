@@ -1,3 +1,10 @@
+/**
+* Lectura de datos desde teclado
+*
+* Programa que calcula el área de un rectángulo.
+* 
+* @author Lino Haller Ríos
+*/
 public class Ejercicio05{
   public static void main(String[] args){
     

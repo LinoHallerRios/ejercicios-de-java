@@ -1,3 +1,10 @@
+/**
+* Variables
+* 
+* Variable nombre con tu nombre completo. Muestra su valor por pantalla.
+*
+* @author Lino Haller Ríos
+*/
 public class Ejercicio02 {
   public static void main(String[] args){
     

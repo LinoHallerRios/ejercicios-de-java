@@ -1,3 +1,10 @@
+/**
+* Lectura de datos desde teclado
+*
+* Programa que calcula el volumen de un cono.
+* 
+* @author Lino Haller Ríos
+*/
 public class Ejercicio09{
   public static void main(String[] args){
     
@@ -13,7 +20,7 @@ public class Ejercicio09{
     altura1 = System.console().readLine();
     
     altura = Double.parseDouble(altura1);
-    volumen = 0.33 * 3.1416 * Double.parseDouble(radio) * Double.parseDouble(radio) * altura;
+    volumen = 0.33 * 3.1416 * Math.pow(Double.parseDouble(radio), 2) * altura;
     
     System.out.printf("\nEl volumen del cono será: %.2f ",volumen);
     

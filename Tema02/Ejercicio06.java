@@ -1,3 +1,10 @@
+/**
+* Variables
+* 
+* Programa que calcula el total de una factura a partir de la base imponible.
+*
+* @author Lino Haller Ríos
+*/
 public class Ejercicio06 {
   public static void main(String[] args){
     

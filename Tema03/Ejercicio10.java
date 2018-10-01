@@ -1,3 +1,10 @@
+/**
+* Lectura de datos desde teclado
+*
+* Conversor de Mb a Kb.
+* 
+* @author Lino Haller Ríos
+*/
 public class Ejercicio10{
   public static void main(String[] args){
     

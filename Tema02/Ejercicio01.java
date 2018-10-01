@@ -1,3 +1,12 @@
+/**
+* Variables
+* 
+* Programa en el que se declaran las variables enteras x e y. 
+* Se muestra por pantalla el valor de cada variable, la suma, la resta, 
+* la división y la multiplicación.
+*
+* @author Lino Haller Ríos
+*/
 public class Ejercicio01 {
   public static void main(String[] args){
     int x;
