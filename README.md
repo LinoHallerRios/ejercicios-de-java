@@ -1,13 +1,17 @@
-# Ejercicios Java de 1ºDAM
+# ejercicios-de-java
 
-Ejercicios de java para la asignatura Programación de 1ºDAM.
+Ejercicios de la asignatura Programación de 1º DAM del IES Campanillas.
 
-* Tipos de datos.
-* Variables.
-* Salida por pantalla.
 
-## Enlaces
+## :books: Bibliografía
 
-[Aprende java con ejercicios](https://leanpub.com/aprendejava/)
+<img src="Imagenes/aprendejava.jpeg" width="320px">
 
-[Git y GitHub - Guía de Supervivencia](https://leanpub.com/gitygithub/)
+[Aprende Java con Ejercicios](https://leanpub.com/aprendejava)
+
+## Enlaces de interés
+
+* [Página oficial del IES Campanillas](http://iescampanillas.com/)
+
+* [Guia de la asignatura Programación](https://github.com/LuisJoseSanchez/programacion)
+
