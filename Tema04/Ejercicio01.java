@@ -15,35 +15,37 @@ public class Ejercicio01{
     System.out.printf("\nIntroduce una un día de la semana: ");
     diaSemana = System.console().readLine();
     
-    if (diaSemana.equals("Lunes") || diaSemana.equals("lunes")){
-      
-      System.out.printf("\nEl %s tienes EED a primera hora.",diaSemana);
-      
+    diaSemana = diaSemana.toUpperCase();
+    
+    switch (diaSemana) {
+    
+      case "LUNES":
+        System.out.printf("\nEl %s tienes EED a primera hora.",diaSemana);
+        break;
+    
+      case "MARTES":
+        System.out.printf("\nEl %s tienes SINF a primera hora.",diaSemana);
+        break;
+        
+      case "MIERCOLES":
+        System.out.printf("\nEl %s tienes PRO a primera hora.",diaSemana);
+        break;
+        
+      case "MIÉRCOLES":
+        System.out.printf("\nEl %s tienes PRO a primera hora.",diaSemana);
+        break;
+        
+      case "JUEVES":
+        System.out.printf("\nEl %s tienes PRO a primera hora.",diaSemana);
+        break;
+        
+      case "VIERNES":
+        System.out.printf("\nEl %s tienes SINF a primera hora.",diaSemana);
+        break;
+    
     }
     
-    if (diaSemana.equals("Martes") || diaSemana.equals("martes")){
-      
-      System.out.printf("\nEl %s tienes SINF a primera hora.",diaSemana);
-      
-    }
     
-    if (diaSemana.equals("Miercoles") || diaSemana.equals("miercoles")){
-      
-      System.out.printf("\nEl %s tienes PRO a primera hora.",diaSemana);
-      
-    }
-    
-    if (diaSemana.equals("Jueves") || diaSemana.equals("jueves")){
-      
-      System.out.printf("\nEl %s tienes PRO a primera hora.",diaSemana);
-      
-    }
-    
-    if (diaSemana.equals("Viernes") || diaSemana.equals("viernes")){
-      
-      System.out.printf("\nEl %s tienes SINF a primera hora.",diaSemana);
-      
-    }
     
   }
 

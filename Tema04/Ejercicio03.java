@@ -17,53 +17,41 @@ public class Ejercicio03{
     
     diaNumero = Integer.parseInt(numero);
     
-    if ((diaNumero == 1)){
+    switch (diaNumero) {
+    
+      case 1:
+        System.out.printf("\nEl %d corresponde al Lunes.",diaNumero);
+        break;
+    
+      case 2:
+        System.out.printf("\nEl %d corresponde al Martes.",diaNumero);
+        break;
+        
+      case 3:
+        System.out.printf("\nEl %d corresponde al Miércoles.",diaNumero);
+        break;
+        
+      case 4:
+        System.out.printf("\nEl %d corresponde al Jueves.",diaNumero);
+        break;
+        
+      case 5:
+        System.out.printf("\nEl %d corresponde al Viernes.",diaNumero);
+        break;
+        
+      case 6:
+        System.out.printf("\nEl %d corresponde al Sábado.",diaNumero);
+        break;
+        
+      case 7:
+        System.out.printf("\nEl %d corresponde al Domingo.",diaNumero);
+        break; 
       
-      System.out.printf("\nEl 1 corresponde al Lunes.");
-      
+      default:
+        System.out.printf("\nEse número no corresponde a ningún día.");
+        break;
     }
     
-    if ((diaNumero == 2)){
-      
-      System.out.printf("\nEl 2 corresponde al Martes.");
-      
-    }
-    
-    if ((diaNumero == 3)){
-      
-      System.out.printf("\n¡El 3 corresponde al Miercoles.");
-      
-    }
-    
-    if ((diaNumero == 4)){
-      
-      System.out.printf("\nEl 4 corresponde al Jueves.");
-      
-    }
-    
-    if ((diaNumero == 5)){
-      
-      System.out.printf("\nEl 5 corresponde al Viernes.");
-      
-    }
-    
-    if ((diaNumero == 6)){
-      
-      System.out.printf("\nEl 6 corresponde al Sábado.");
-      
-    }
-    
-    if ((diaNumero == 7)){
-      
-      System.out.printf("\nEl 7 corresponde al Domingo.");
-      
-    }
-    
-    if ((diaNumero < 1) || (diaNumero > 7)){
-      
-      System.out.printf("\nEl número introducido no es correcto.");
-      
-    }
     
   }
 
