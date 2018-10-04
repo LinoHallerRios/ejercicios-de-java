@@ -36,12 +36,12 @@ public class Ejercicio13{
       if (segundoNum > tercerNum){
       
         System.out.printf("\nEl orden de los números será: ");
-        System.out.printf("%.2f > %.2f > %.2f ",primerNum,segundoNum,tercerNum);
+        System.out.printf("%.2f - %.2f - %.2f",primerNum,segundoNum,tercerNum);
         
       } else {
         
         System.out.printf("\nEl orden de los números será: ");
-        System.out.printf("%.2f > %.2f > %.2f",primerNum,tercerNum,segundoNum);
+        System.out.printf("%.2f - %.2f - %.2f",primerNum,tercerNum,segundoNum);
         
         }
     }
@@ -51,12 +51,12 @@ public class Ejercicio13{
       if (primerNum > tercerNum){
       
         System.out.printf("\nEl orden de los números será: ");
-        System.out.printf("%.2f > %.2f > %.2f",segundoNum,primerNum,tercerNum);
+        System.out.printf("%.2f - %.2f - %.2f",segundoNum,primerNum,tercerNum);
         
       } else {
         
         System.out.printf("\nEl orden de los números será: ");
-        System.out.printf("%.2f > %.2f > %.2f",segundoNum,tercerNum,primerNum);
+        System.out.printf("%.2f - %.2f - %.2f",segundoNum,tercerNum,primerNum);
         
         }
     }
@@ -66,12 +66,12 @@ public class Ejercicio13{
       if (primerNum > segundoNum){
       
         System.out.printf("\nEl orden de los números será: ");
-        System.out.printf("%.2f > %.2f > %.2f",tercerNum,primerNum,segundoNum);
+        System.out.printf("%.2f - %.2f - %.2f",tercerNum,primerNum,segundoNum);
         
       } else {
         
         System.out.printf("\nEl orden de los números será: ");
-        System.out.printf("%.2f > %.2f > %.2f",tercerNum,segundoNum,primerNum);
+        System.out.printf("%.2f - %.2f - %.2f",tercerNum,segundoNum,primerNum);
         
         }
     }
