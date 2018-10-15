@@ -1,7 +1,6 @@
 /**
  * 4. Sentencia condicional ( if y switch )
  *
- * Cuestionario.
  *
  * @author Lino Haller Ríos
  */

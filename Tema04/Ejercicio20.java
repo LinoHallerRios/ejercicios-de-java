@@ -10,7 +10,7 @@ public class Ejercicio20 {
     int num;
     String num1;
     
-    System.out.printf("\nPor favor, introduzca un número de 5 cifras: ");
+    System.out.printf("\nPor favor, introduzca un número de hasta 5 cifras: ");
     num1 = System.console().readLine();
     num = Integer.parseInt(num1);
     
