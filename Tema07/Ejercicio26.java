@@ -3,7 +3,7 @@
  * 
  * @author Lino Haller Ríos
  */
-public class Ejercicio25 {
+public class Ejercicio26 {
 
   public static void main(String[] args) {
     
