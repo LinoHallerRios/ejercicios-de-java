@@ -1,9 +1,10 @@
-package Ejercicio09;
+package ejercicio09;
 
 /**
  *
- * @author Lino
+ * @author Lino Haller Ríos
  */
+import java.text.DecimalFormat;
 public class Movil extends Terminal2 {
 
     private String tarifa;
@@ -16,26 +17,23 @@ public class Movil extends Terminal2 {
     }
 
     public String toString() {
-        return "Nº " + this.numero + " - " + this.segundos + "s de conversación" + " - " + "tarificados " + this.tarificados + "€";
+        DecimalFormat formatoEuros = new DecimalFormat("0.00");
+        return "Nº " + this.numero + " - " + this.segundos + "s de conversación" + " - " + "tarificados " + formatoEuros.format(this.tarificados) + "€";
     }
 
-    public Movil llama(Movil m, int seg) {
+    public void llama(Movil m, int seg) {
+      
         if (this.tarifa.equals("rata")) {
-            this.segundos += seg;
-            m.segundos += seg;
-            this.tarificados += (seg / 60) * (6 / 100); 
+            this.tarificados += (seg / 60.0) * (6.0 / 100); 
         }
         if (this.tarifa.equals("mono")) {
-            this.segundos += seg;
-            m.segundos += seg;
-            this.tarificados += (seg / 60) * (12 / 100); 
+            this.tarificados += (seg / 60.0) * (12.0 / 100); 
         }
         if (this.tarifa.equals("bisonte")) {
-            this.segundos += seg;
-            m.segundos += seg;
-            this.tarificados += (seg / 60) * (30 / 100); 
+            this.tarificados += (seg / 60.0) * (30.0 / 100); 
         }
-        return null;
+        this.segundos += seg;
+        m.segundos += seg;
     }
 
     
