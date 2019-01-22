@@ -1,5 +1,5 @@
 
-package Ejercicio08;
+package ejercicio08;
 
 /**
  *
@@ -19,10 +19,9 @@ public class Terminal {
         return this.numero;
     }
     
-    public Terminal llama(Terminal t, int seg) {
+    public void llama(Terminal t, int seg) {
         this.segundos += seg;
         t.segundos += seg;
-        return null;
     }
     
     public String toString() {

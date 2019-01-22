@@ -1,4 +1,4 @@
-package Ejercicio05;
+package ejercicio05;
 
 /**
  *
@@ -40,14 +40,13 @@ public class Pizza {
         return this.estado;
     }
 
-    public Pizza sirve() {
+    public void sirve() {
         if (this.estado.equals("servido")) {
             System.out.println("esa pizza ya se ha servido");
         } else {
             this.setEstado("servido");
             Pizza.totalServidas++;
         }
-        return null;
     }
 
     public static int getTotalPedidas() {

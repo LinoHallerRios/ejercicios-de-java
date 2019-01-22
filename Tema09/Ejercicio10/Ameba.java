@@ -1,4 +1,4 @@
-package Ejercicio10;
+package ejercicio10;
 
 /**
  *
@@ -21,10 +21,9 @@ public class Ameba {
         return null;
     }
 
-    public Ameba come(Ameba m) {
+    public void come(Ameba m) {
         this.peso += m.peso - 1;
         m.peso = 0;
-        return null;
     }
 
 }

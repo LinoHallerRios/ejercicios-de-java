@@ -1,8 +1,8 @@
-package Ejercicio04;
+package ejercicio04;
 
 /**
  *
- * @author Lino
+ * @author Lino Haller Ríos
  */
 public class Fraccion {
 

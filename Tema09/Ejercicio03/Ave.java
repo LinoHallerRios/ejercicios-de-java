@@ -1,5 +1,5 @@
 
-package Ejercicio03;
+package ejercicio03;
 
 /**
  *

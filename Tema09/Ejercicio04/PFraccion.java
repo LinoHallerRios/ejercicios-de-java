@@ -1,4 +1,4 @@
-package Ejercicio04;
+package ejercicio04;
 
 /**
  *
