@@ -1,0 +1,30 @@
+
+body {
+background-image: url("img/500euro.jpg"); 
+}
+
+
+#wrapper {
+width:35%;
+height: 30vw;
+margin: auto;
+border: 2px solid black;
+text-align: center;
+background-color: #ee5d34;
+font-size: 1.5vw;
+}
+
+#imgIndex {
+height: 15vw;
+margin-left: 24vw;
+position: relative;
+bottom: 10vw;
+}
+
+#jsp {
+height: 15vw;
+left: 55.8vw;
+position: relative;
+bottom: 19vw;
+}
+
